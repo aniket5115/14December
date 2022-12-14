@@ -15,6 +15,9 @@ public class Base {
 		    driver =new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://neostox.com/sign-in");
+			
+			
+			
 			Reporter.log("Launching Browser",true);
 			Thread.sleep(3000);
 			}
